@@ -44,7 +44,7 @@ Let's install this script to run it at boot
 ```
 $cp autossh-tunnel /etc/init.d/
 $chmod +x /etc/init.d/autossh-tunnel
-$update-rc.d autossh-tunnel default
+$update-rc.d autossh-tunnel defaults
 ```
 
 And test it!
